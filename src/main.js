@@ -43,5 +43,6 @@ form.addEventListener('submit', async (e) => {
 });
 
 function toggleLoader(show) {
+  const loader = document.querySelector('.loader');
   loader.classList.toggle('hidden', !show);
 }

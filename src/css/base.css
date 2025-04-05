@@ -78,7 +78,7 @@ body {
   gap: 5px;
 }
 
-#loader {
+.loader {
   border: 6px solid #e0e0e0;
   border-top: 6px solid #007bff;
   border-radius: 50%;
@@ -86,6 +86,7 @@ body {
   height: 50px;
   animation: spin 1s linear infinite;
   margin: 20px auto;
+  display: block;
 }
 
 @keyframes spin {
